@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="flex flex-row space-x-4 divide-x-4">
+        <form class="ml-2 mt-1" id="form">
+            <div class="flex flex-col w-56">
+                Name
+                <input type="text" class="border-2 rounded-lg border-gray-500" id="name">
+            </div>
+            <div class="flex flex-col w-56">
+                Age
+                <input type="text" class="border-2 rounded-lg border-gray-500" id="age">
+            </div>
+            <button class="mt-4 bg-gray-700 rounded-md w-56 text-white uppercase text-sm p-1" id="submit">Submit</button>
+            
+        </form>
+        <ul class="pl-2 pt-1" id="users">
+        </ul>
+    </div>
+    <script src='main.js'></script>
+</body>
+</html>
